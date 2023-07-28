@@ -1,3 +1,4 @@
+/* Define custom CSS variables */
 :root{
     --primary : rgb(207, 35, 70);
     --dark: #1f2937;
@@ -5,16 +6,18 @@
     --light: #f3f4f6;
 
 }
+/* Global styles for all elements */
 {
     box-sizing: border-box;
     margin: 0;
     font-family: 'Fira sans', sans-serif;
 }
-
+/* Styles for the body element */
 body {
     background: var(--dark);
     color: var(--light)
 }
+/* Styles for the .watch container */
  .watch{
     text-align: center;
     background-color: var(--darkdark);
@@ -24,19 +27,21 @@ body {
     padding: 1rem 2rem;
     border-radius: 1rem;
  }
-
+/* Styles for the .time element */
  .time{
     font-size: 5rem;
     font-weight: 300;
     margin-bottom: 1rem;
  }
 
+/* Styles for the .controls container */
 .controls{
     display: Flex;
     align-items: center;
     justify-content: center;
 
  }
+ /* Styles for the buttons inside .controls */
 .controls button{
     appearance: none;
     background: none;
@@ -54,11 +59,14 @@ body {
 
     transition: 0.04s;
 }
+/* Styles for buttons on hover */
 button:hover {
     opacity: 0.7;
      
 }
+/* Styles for buttons on active (when clicked) */
 button:active {
     background-color: var(--dark);
 }
+
 
