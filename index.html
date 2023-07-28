@@ -3,21 +3,27 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--This meta tag sets the viewport for the webpage, ensuring proper rendering on various devices by adjusting the width and initial scale-->
+
+
         <title>Stopwatch</title>
 
         <link rel="icon" href="stopwatch.png">
+        <!-- This link tag specifies the favicon, which is the small icon displayed in the browser's tab or address bar.-->
 
         <link rel="stylesheet" href="main.css">
+        <!--  This link tag links to an external CSS file named "main.css," which is used to style the HTML content-->
     </head>
     <body>
 
         <div class="watch">
+            <!--div element represents the main container for the stopwatch-->
 
-            <div class="time">
+            <div class="time"><!-- This div element displays the time for the stopwatch, initialized as-->
                 00:00:00
             </div>
 
-            <div class="controls">
+            <div class="controls"><!--This div element contains buttons to control the stopwatch-->
                 <button id="start">Start</button>
                 <button id="stop">Stop</button>
                 <button id="reset">Reset</button>
@@ -26,5 +32,6 @@
         </div>
         
         <script src="main.js"></script>
+        <!--  This script tag links to an external JavaScript file named "main.js," which will contain the functionality to implement the stopwatch logic.-->
     </body>
 </html>
